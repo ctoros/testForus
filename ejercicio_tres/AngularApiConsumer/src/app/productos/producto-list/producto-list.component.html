@@ -1,0 +1,21 @@
+<table class="table table-hover">
+  <thead>
+  <tr>
+    <th>id</th>
+    <th>nombre</th>
+    <th>descripcion</th>
+    <th>cantidad</th>
+    <th>ubicacion</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let prodcuct of service.list">
+    <td (click)="populateForm(prodcuct)">{{prodcuct.id}}</td>
+    <td (click)="populateForm(prodcuct)">{{prodcuct.nombre}}</td>
+    <td (click)="populateForm(prodcuct)">{{prodcuct.descripcion}}</td>
+    <td (click)="populateForm(prodcuct)">{{prodcuct.cantidad}}</td>
+    <td (click)="populateForm(prodcuct)">{{prodcuct.ubicacion}}</td>
+    <td><button  (click)="onDelete(prodcuct.id)" class="btn btn-sm btn-outline-danger">X</button></td>
+  </tr>
+  </tbody>
+</table>

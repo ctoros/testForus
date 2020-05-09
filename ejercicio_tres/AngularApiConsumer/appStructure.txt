@@ -1,0 +1,17 @@
+● src
++---● app
+|   +--● productos
+|   |  |--productos.component.ts|.html|.css
+|   |  +--● productos
+|   |  |  |--productos.component.ts|.html|.css
+|   |  |
+|   |  +--● producto-list
+|   |  |  |--producto-list.component.ts|.html|.css
+|   |  |
+|   |  +--● shared
+|   |     |--productos.service.ts
+|   |     |--productos.model.ts
+|   |
+|   |--app.module.ts
+|
+|--index.html (cdn path for bootstrap)
